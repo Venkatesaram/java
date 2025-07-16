@@ -1,0 +1,11 @@
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:javaee="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="4.0" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd">
+<display-name>Archetype Created Web Application</display-name>
+<context-param>
+<param-name>leaguesFile</param-name>
+<param-value>WEB-INF/leagues.txt</param-value>
+</context-param>
+<listener>
+<listener-class>sl314.mylisteners.Mylistener</listener-class>
+</listener>
+</web-app>
